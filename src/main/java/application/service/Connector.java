@@ -50,7 +50,7 @@ public class Connector {
     }
 
     public String getUrl() {
-        String url = String.format("jdbc:mysql://%s:%s/%s?useSSL=false", nameServer, port, nameDatabase);
+        String url = String.format("jdbc:mysql://%s:%s/%s?useSSL=false&serverTimezone=UTC", nameServer, port, nameDatabase);
         return url;
     }
 
