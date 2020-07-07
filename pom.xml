@@ -7,12 +7,25 @@
     <groupId>TestForMagnit</groupId>
     <artifactId>TestForMagnit</artifactId>
     <version>1.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.18</version>
+            <version>8.0.20</version>
+
             <exclusions>
                 <exclusion>
                     <groupId>com.google.protobuf</groupId>
@@ -21,6 +34,4 @@
             </exclusions>
         </dependency>
     </dependencies>
-
-    
 </project>

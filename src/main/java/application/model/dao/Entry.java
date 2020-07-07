@@ -1,6 +1,6 @@
-package application.dao;
+package application.model.dao;
 
-import application.other.Constants;
+import application.model.Constants;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;

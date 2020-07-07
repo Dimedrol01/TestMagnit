@@ -1,4 +1,4 @@
-package application.other;
+package application.model;
 
 import java.io.File;
 import java.nio.file.Paths;
